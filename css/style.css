@@ -88,6 +88,10 @@
 
 /* NEWLY MODIFIED STYLES */
 
+.body {
+  background-color: #87B3D6;
+}
+
 .see-more-link {
   color: red;
   font-size: 10px;
@@ -624,6 +628,7 @@ left: 0;
 top: 0;
 overflow: hidden;
 z-index: 0;
+background-color: #87B3D6;
 }
 
 
