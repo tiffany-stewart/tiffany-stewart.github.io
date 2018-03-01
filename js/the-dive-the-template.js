@@ -59,7 +59,7 @@ $(function() {
         setTimeout(function() {
             $(".fadeIn-element").delay(2000).css({
                 display: "none"
-            }).fadeIn(3000);
+            }).fadeIn(1000);
         }, 0);
       });
 
