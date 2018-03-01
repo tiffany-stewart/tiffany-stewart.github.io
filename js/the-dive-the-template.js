@@ -39,14 +39,14 @@ $(function() {
 
     $(window).on("load", function() {
         // 1. preloader
-        $("#preloader").fadeOut(600);
-        $(".preloader-bg").delay(400).fadeOut(600);
+        $("#preloader").fadeOut(200);
+        $(".preloader-bg").delay(200).fadeOut(300);
 
         // 2. fadeIn.element
         setTimeout(function() {
-            $(".fadeIn-element").delay(600).css({
+            $(".fadeIn-element").delay(200).css({
                 display: "none"
-            }).fadeIn(800);
+            }).fadeIn(400);
         }, 0);
     });
 
