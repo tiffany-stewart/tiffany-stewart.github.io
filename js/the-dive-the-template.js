@@ -37,7 +37,20 @@ $(function() {
     "use strict";
 
 
-    $(window).on("load", function() {
+    // $(window).on("load", function() {
+    //     // 1. preloader
+    //     $("#preloader").fadeOut(200);
+    //     $(".preloader-bg").delay(200).fadeOut(300);
+    //
+    //     // 2. fadeIn.element
+    //     setTimeout(function() {
+    //         $(".fadeIn-element").delay(200).css({
+    //             display: "none"
+    //         }).fadeIn(400);
+    //     }, 0);
+    // });
+
+    $(function() {
         // 1. preloader
         $("#preloader").fadeOut(200);
         $(".preloader-bg").delay(200).fadeOut(300);
@@ -48,7 +61,7 @@ $(function() {
                 display: "none"
             }).fadeIn(400);
         }, 0);
-    });
+      });
 
     // 3. slick slider
     // 3-1. slick left about slider
