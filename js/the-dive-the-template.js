@@ -52,14 +52,14 @@ $(function() {
 
     $(function() {
         // 1. preloader
-        $("#preloader").fadeOut(200);
+        $("#preloader").fadeOut(700);
         $(".preloader-bg").delay(200).fadeOut(300);
 
         // 2. fadeIn.element
         setTimeout(function() {
-            $(".fadeIn-element").delay(200).css({
+            $(".fadeIn-element").delay(2000).css({
                 display: "none"
-            }).fadeIn(400);
+            }).fadeIn(3000);
         }, 0);
       });
 
