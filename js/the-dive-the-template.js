@@ -57,9 +57,9 @@ $(function() {
 
         // 2. fadeIn.element
         setTimeout(function() {
-            $(".fadeIn-element").delay(2000).css({
+            $(".fadeIn-element").delay(1000).css({
                 display: "none"
-            }).fadeIn(1000);
+            }).fadeIn(200);
         }, 0);
       });
 
