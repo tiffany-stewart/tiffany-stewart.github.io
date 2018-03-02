@@ -3,6 +3,7 @@ body, html {
   font-family: 'Lato', sans-serif;
   font-weight: 300;
   margin: 0;
+  background-color: #fff;
 }
 
 /* CAROUSEL CSS */
@@ -24,7 +25,7 @@ body, html {
 } */
 
 .mySlides img {
-  margin-left: -20px;
+  /* margin-left: -20px; */
 }
 
 .bottom-dots {
@@ -34,7 +35,7 @@ body, html {
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 500px;
+  max-width: 230px;
   position: relative;
   margin: auto;
   /* right: 40px; */
@@ -47,7 +48,7 @@ body, html {
   top: 50%;
   width: auto;
   padding: 16px;
-  margin-top: -22px;
+  margin-top: -32px;
   color: #000;
   font-weight: bold;
   font-size: 18px;
