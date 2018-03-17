@@ -125,6 +125,10 @@ body {
     padding: 20px;
 }
 
+#myVido img {
+  width: 500px;
+}
+
 
 
 /* 1. TEMPLATE BACKGROUNDS */
