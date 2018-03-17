@@ -2533,13 +2533,14 @@ h1.home-page-main-title.dark {
   }
 }
 
-h2.home-page-main-title {
+h1.home-page-main-title {
 position: relative;
 font-family: 'Avenir', sans-serif;
 font-style: normal;
 font-weight: 100;
 font-size: 15px;
 text-align: center;
+padding-bottom: 10px;
 /* text-transform: uppercase; */
 letter-spacing: 0.09em;
 color: #fff;
@@ -2549,7 +2550,7 @@ line-height: 100%;
 z-index: 1;
 }
 
-h2.home-page-main-title.dark {
+h1.home-page-main-title.dark {
 /* color: #111; */
 }
 
@@ -2561,7 +2562,7 @@ h2.home-page-main-title.dark {
 }
 
 @media only screen and (max-width: 640px) {
-  h2.home-page-main-title {
+  h1.home-page-main-title {
     font-size: 15px;
   }
 }
